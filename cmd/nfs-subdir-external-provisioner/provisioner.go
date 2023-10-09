@@ -74,7 +74,7 @@ func (meta *pvcMetadata) stringParser(str string) string {
 }
 
 const (
-	mountPath = "/persistentvolumes"
+	mountPath = "/opt/persistentvolumes"
 )
 
 var _ controller.Provisioner = &nfsProvisioner{}
